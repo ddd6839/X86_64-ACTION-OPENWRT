@@ -19,3 +19,4 @@
 echo 'src-git netspeedtest https://github.com/sirpdboy/netspeedtest' >>feeds.conf.default
 echo 'src-git Istore  https://github.com/linkease/istore' >>feeds.conf.default
 echo 'src-git AdGuardHome  https://github.com/zzz6839/adguardhome' >>feeds.conf.default
+echo 'src-git Openclash  https://github.com/vernesong/OpenClash' >>feeds.conf.default
