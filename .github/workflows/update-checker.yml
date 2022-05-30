@@ -15,7 +15,7 @@ env:
   REPO_URL: https://github.com/immortalwrt/immortalwrt
   REPO_BRANCH: openwrt-21.02
 
-on:
+#on:
   workflow_dispatch:
   schedule:
     - cron: 0 */18 * * *
