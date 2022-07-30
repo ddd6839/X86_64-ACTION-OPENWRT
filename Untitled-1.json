@@ -1,60 +1,346 @@
-{"level":30,"time":1659193497174,"pid":19683,"hostname":"ImmortalWrt","scope":"app","msg":"HTTP Server running @ http://0.0.0.0:5200"}
-{"level":30,"time":1659193497176,"pid":19683,"hostname":"ImmortalWrt","scope":"app","msg":"HTTPS Server running @ http://0.0.0.0:5202"}
-{"level":20,"time":1659193516028,"pid":19683,"hostname":"ImmortalWrt","scope":"server","url":"0.0.0.0:5202","msg":"TUNNEL"}
-{"level":20,"time":1659193516032,"pid":19683,"hostname":"ImmortalWrt","scope":"server","url":"0.0.0.0:5202","msg":"TUNNEL"}
-{"level":20,"time":1659193516039,"pid":19683,"hostname":"ImmortalWrt","scope":"server","url":"0.0.0.0:5202","msg":"TUNNEL"}
-{"level":20,"time":1659193521093,"pid":19683,"hostname":"ImmortalWrt","scope":"server","url":"0.0.0.0:5202","msg":"TUNNEL"}
-{"level":20,"time":1659193521096,"pid":19683,"hostname":"ImmortalWrt","scope":"server","url":"0.0.0.0:5202","msg":"TUNNEL"}
-{"level":20,"time":1659193521101,"pid":19683,"hostname":"ImmortalWrt","scope":"server","url":"0.0.0.0:5202","msg":"TUNNEL"}
-{"level":20,"time":1659193523971,"pid":19683,"hostname":"ImmortalWrt","scope":"cache","cacheStorageId":"provider/find","msg":"Cleaning up the expired caches..."}
-{"level":20,"time":1659193523971,"pid":19683,"hostname":"ImmortalWrt","scope":"cache","logKey":1962166119,"cacheStorageId":"provider/find","msg":"1962166119 did not hit. Storing the execution result..."}
-{"level":20,"time":1659193523974,"pid":19683,"hostname":"ImmortalWrt","scope":"request","msg":"Start requesting https://music.163.com/api/song/detail?ids=[1962166119]"}
-{"level":20,"time":1659193524109,"pid":19683,"hostname":"ImmortalWrt","scope":"provider/match","source":"pyncmd","info":{"name":"倒影","id":1962166119,"alias":[],"duration":234226,"album":{"name":"最伟大的作品","id":147779282},"artists":[{"name":"周杰伦","id":6452}],"keyword":"倒影 - 周杰伦"},"msg":"Getting the audio..."}
-{"level":20,"time":1659193524110,"pid":19683,"hostname":"ImmortalWrt","scope":"cache","cacheStorageId":"provider/pyncmd","msg":"Cleaning up the expired caches..."}
-{"level":20,"time":1659193524110,"pid":19683,"hostname":"ImmortalWrt","scope":"cache","logKey":"Something","cacheStorageId":"provider/pyncmd","msg":"Something did not hit. Storing the execution result..."}
-{"level":20,"time":1659193524111,"pid":19683,"hostname":"ImmortalWrt","scope":"request","msg":"Start requesting https://pyncmd.vercel.app/api/pyncm?module=track&method=GetTrackAudio&song_ids=1962166119&bitrate=999000"}
-{"level":20,"time":1659193524112,"pid":19683,"hostname":"ImmortalWrt","scope":"provider/match","source":"ytdlp","info":{"name":"倒影","id":1962166119,"alias":[],"duration":234226,"album":{"name":"最伟大的作品","id":147779282},"artists":[{"name":"周杰伦","id":6452}],"keyword":"倒影 - 周杰伦"},"msg":"Getting the audio..."}
-{"level":20,"time":1659193524113,"pid":19683,"hostname":"ImmortalWrt","scope":"cache","cacheStorageId":"yt-dlp","msg":"Cleaning up the expired caches..."}
-{"level":20,"time":1659193524114,"pid":19683,"hostname":"ImmortalWrt","scope":"cache","logKey":"Something","cacheStorageId":"yt-dlp","msg":"Something did not hit. Storing the execution result..."}
-{"level":30,"time":1659193524129,"pid":19683,"hostname":"ImmortalWrt","scope":"spawn","msg":"running yt-dlp -f 140 --dump-json ytsearch1:倒影 - 周杰伦"}
-{"level":20,"time":1659193533443,"pid":19683,"hostname":"ImmortalWrt","scope":"spawn","msg":"process yt-dlp exited successfully"}
-{"level":30,"time":1659193533456,"pid":19683,"hostname":"ImmortalWrt","scope":"spawn","msg":"running yt-dlp -f 140 --dump-json https://www.youtube.com/watch?v=XvHc_VEop7I"}
-{"level":20,"time":1659193539710,"pid":19683,"hostname":"ImmortalWrt","scope":"cache","cacheStorageId":"provider/find","msg":"Cleaning up the expired caches..."}
-{"level":20,"time":1659193539710,"pid":19683,"hostname":"ImmortalWrt","scope":"cache","logKey":1962166119,"cacheStorageId":"provider/find","msg":"1962166119 hit!"}
-{"level":20,"time":1659193539710,"pid":19683,"hostname":"ImmortalWrt","scope":"provider/match","source":"pyncmd","info":{"name":"倒影","id":1962166119,"alias":[],"duration":234226,"album":{"name":"最伟大的作品","id":147779282},"artists":[{"name":"周杰伦","id":6452}],"keyword":"倒影 - 周杰伦"},"msg":"Getting the audio..."}
-{"level":20,"time":1659193539711,"pid":19683,"hostname":"ImmortalWrt","scope":"cache","cacheStorageId":"provider/pyncmd","msg":"Cleaning up the expired caches..."}
-{"level":20,"time":1659193539711,"pid":19683,"hostname":"ImmortalWrt","scope":"cache","logKey":"Something","cacheStorageId":"provider/pyncmd","msg":"Something did not hit. Storing the execution result..."}
-{"level":20,"time":1659193539711,"pid":19683,"hostname":"ImmortalWrt","scope":"request","msg":"Start requesting https://pyncmd.vercel.app/api/pyncm?module=track&method=GetTrackAudio&song_ids=1962166119&bitrate=999000"}
-{"level":20,"time":1659193539714,"pid":19683,"hostname":"ImmortalWrt","scope":"provider/match","source":"ytdlp","info":{"name":"倒影","id":1962166119,"alias":[],"duration":234226,"album":{"name":"最伟大的作品","id":147779282},"artists":[{"name":"周杰伦","id":6452}],"keyword":"倒影 - 周杰伦"},"msg":"Getting the audio..."}
-{"level":20,"time":1659193539715,"pid":19683,"hostname":"ImmortalWrt","scope":"cache","cacheStorageId":"yt-dlp","msg":"Cleaning up the expired caches..."}
-{"level":20,"time":1659193539715,"pid":19683,"hostname":"ImmortalWrt","scope":"cache","logKey":"Something","cacheStorageId":"yt-dlp","msg":"Something hit!"}
-{"level":30,"time":1659193539721,"pid":19683,"hostname":"ImmortalWrt","scope":"spawn","msg":"running yt-dlp -f 140 --dump-json https://www.youtube.com/watch?v=XvHc_VEop7I"}
-{"level":20,"time":1659193541779,"pid":19683,"hostname":"ImmortalWrt","scope":"spawn","msg":"process yt-dlp exited successfully"}
-{"level":20,"time":1659193541783,"pid":19683,"hostname":"ImmortalWrt","scope":"request","msg":"Start requesting https://rr1---sn-ibj-i3be6.googlevideo.com/videoplayback?expire=1659215141&ei=xUjlYsyjAc_KgAPX06_gAQ&ip=218.190.230.226&id=o-AKvDEMEWBNSfaBtAlkWejaPv3C-zi7eOguf0QrkIPupH&itag=140&source=youtube&requiressl=yes&mh=fP&mm=31%2C29&mn=sn-ibj-i3be6%2Csn-i3belne6&ms=au%2Crdu&mv=m&mvi=1&pl=26&gcr=hk&initcwndbps=928750&vprv=1&mime=audio%2Fmp4&gir=yes&clen=3793164&dur=234.226&lmt=1657522331564986&mt=1659193261&fvip=3&keepalive=yes&fexp=24001373%2C24007246&c=ANDROID&txp=2318224&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cgcr%2Cvprv%2Cmime%2Cgir%2Cclen%2Cdur%2Clmt&sig=AOq0QJ8wRgIhALbiN5PUhX9fEGR5O2ydaFzOpV_r71L0P2fE6RhUiV2uAiEAvMYN_DmyGmsHJiyW5tL2uc2IVKzeexdhls9ShCauVTQ%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRQIgH5frF-pYlpNLnKgLibN7dOS8G0zxvMr2ZfgWhMtX1nICIQDq3Y1cD9zK3KTj71545jYuM-ZUAoYNcYxtlUQlFBBiig%3D%3D"}
-{"level":20,"time":1659193542709,"pid":19683,"hostname":"ImmortalWrt","scope":"provider/match","size":3793164,"br":null,"url":"https://rr1---sn-ibj-i3be6.googlevideo.com/videoplayback?expire=1659215141&ei=xUjlYsyjAc_KgAPX06_gAQ&ip=218.190.230.226&id=o-AKvDEMEWBNSfaBtAlkWejaPv3C-zi7eOguf0QrkIPupH&itag=140&source=youtube&requiressl=yes&mh=fP&mm=31%2C29&mn=sn-ibj-i3be6%2Csn-i3belne6&ms=au%2Crdu&mv=m&mvi=1&pl=26&gcr=hk&initcwndbps=928750&vprv=1&mime=audio%2Fmp4&gir=yes&clen=3793164&dur=234.226&lmt=1657522331564986&mt=1659193261&fvip=3&keepalive=yes&fexp=24001373%2C24007246&c=ANDROID&txp=2318224&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cgcr%2Cvprv%2Cmime%2Cgir%2Cclen%2Cdur%2Clmt&sig=AOq0QJ8wRgIhALbiN5PUhX9fEGR5O2ydaFzOpV_r71L0P2fE6RhUiV2uAiEAvMYN_DmyGmsHJiyW5tL2uc2IVKzeexdhls9ShCauVTQ%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRQIgH5frF-pYlpNLnKgLibN7dOS8G0zxvMr2ZfgWhMtX1nICIQDq3Y1cD9zK3KTj71545jYuM-ZUAoYNcYxtlUQlFBBiig%3D%3D","md5":null,"msg":"The matched song is:"}
-{"level":20,"time":1659193542709,"pid":19683,"hostname":"ImmortalWrt","scope":"provider/match","source":"ytdlp","info":{"name":"倒影","id":1962166119,"alias":[],"duration":234226,"album":{"name":"最伟大的作品","id":147779282},"artists":[{"name":"周杰伦","id":6452}],"keyword":"倒影 - 周杰伦"},"msg":"The audio matched!"}
-{"level":20,"time":1659193542709,"pid":19683,"hostname":"ImmortalWrt","scope":"provider/match","audioInfo":{"name":"倒影","id":1962166119,"alias":[],"duration":234226,"album":{"name":"最伟大的作品","id":147779282},"artists":[{"name":"周杰伦","id":6452}],"keyword":"倒影 - 周杰伦"},"audioData":{"size":3793164,"br":null,"url":"https://rr1---sn-ibj-i3be6.googlevideo.com/videoplayback?expire=1659215141&ei=xUjlYsyjAc_KgAPX06_gAQ&ip=218.190.230.226&id=o-AKvDEMEWBNSfaBtAlkWejaPv3C-zi7eOguf0QrkIPupH&itag=140&source=youtube&requiressl=yes&mh=fP&mm=31%2C29&mn=sn-ibj-i3be6%2Csn-i3belne6&ms=au%2Crdu&mv=m&mvi=1&pl=26&gcr=hk&initcwndbps=928750&vprv=1&mime=audio%2Fmp4&gir=yes&clen=3793164&dur=234.226&lmt=1657522331564986&mt=1659193261&fvip=3&keepalive=yes&fexp=24001373%2C24007246&c=ANDROID&txp=2318224&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cgcr%2Cvprv%2Cmime%2Cgir%2Cclen%2Cdur%2Clmt&sig=AOq0QJ8wRgIhALbiN5PUhX9fEGR5O2ydaFzOpV_r71L0P2fE6RhUiV2uAiEAvMYN_DmyGmsHJiyW5tL2uc2IVKzeexdhls9ShCauVTQ%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRQIgH5frF-pYlpNLnKgLibN7dOS8G0zxvMr2ZfgWhMtX1nICIQDq3Y1cD9zK3KTj71545jYuM-ZUAoYNcYxtlUQlFBBiig%3D%3D","md5":null},"msg":"The data to replace:"}
-{"level":30,"time":1659193542710,"pid":19683,"hostname":"ImmortalWrt","scope":"provider/match","audioId":1962166119,"songName":"倒影","url":"https://rr1---sn-ibj-i3be6.googlevideo.com/videoplayback?expire=1659215141&ei=xUjlYsyjAc_KgAPX06_gAQ&ip=218.190.230.226&id=o-AKvDEMEWBNSfaBtAlkWejaPv3C-zi7eOguf0QrkIPupH&itag=140&source=youtube&requiressl=yes&mh=fP&mm=31%2C29&mn=sn-ibj-i3be6%2Csn-i3belne6&ms=au%2Crdu&mv=m&mvi=1&pl=26&gcr=hk&initcwndbps=928750&vprv=1&mime=audio%2Fmp4&gir=yes&clen=3793164&dur=234.226&lmt=1657522331564986&mt=1659193261&fvip=3&keepalive=yes&fexp=24001373%2C24007246&c=ANDROID&txp=2318224&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cgcr%2Cvprv%2Cmime%2Cgir%2Cclen%2Cdur%2Clmt&sig=AOq0QJ8wRgIhALbiN5PUhX9fEGR5O2ydaFzOpV_r71L0P2fE6RhUiV2uAiEAvMYN_DmyGmsHJiyW5tL2uc2IVKzeexdhls9ShCauVTQ%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRQIgH5frF-pYlpNLnKgLibN7dOS8G0zxvMr2ZfgWhMtX1nICIQDq3Y1cD9zK3KTj71545jYuM-ZUAoYNcYxtlUQlFBBiig%3D%3D","msg":"Replaced: [1962166119] 倒影"}
-{"level":20,"time":1659193547548,"pid":19683,"hostname":"ImmortalWrt","scope":"spawn","msg":"process yt-dlp exited successfully"}
-{"level":20,"time":1659193547550,"pid":19683,"hostname":"ImmortalWrt","scope":"request","msg":"Start requesting https://rr1---sn-ibj-i3be6.googlevideo.com/videoplayback?expire=1659215146&ei=ykjlYsnpJ5vFs8IPju-D6AI&ip=218.190.230.226&id=o-AFykuhhbWfVg1fW-vqvQltT1zlw-doJPtSoQABpmGLnJ&itag=140&source=youtube&requiressl=yes&mh=fP&mm=31%2C29&mn=sn-ibj-i3be6%2Csn-i3b7knzs&ms=au%2Crdu&mv=m&mvi=1&pl=26&gcr=hk&initcwndbps=928750&vprv=1&mime=audio%2Fmp4&gir=yes&clen=3793164&dur=234.226&lmt=1657522331564986&mt=1659193261&fvip=2&keepalive=yes&fexp=24001373%2C24007246&c=ANDROID&rbqsm=fr&txp=2318224&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cgcr%2Cvprv%2Cmime%2Cgir%2Cclen%2Cdur%2Clmt&sig=AOq0QJ8wRgIhAN17CO3bzfgran6Kakgell5xLk9_S1dDPQ-A3h6SnlqQAiEAmVKixqxUOhwHHgw1V-noiL7y1nEQJZkpdN8UTwffwqU%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRgIhAL1lxyW1NtJnix_zwnbYAzj0Ipkf-UukHuN50jYtb5HRAiEAvrdGt8HanNVfQbBt8vtRiCJKpOd2iae5JRp_28NStew%3D"}
-{"level":20,"time":1659193547725,"pid":19683,"hostname":"ImmortalWrt","scope":"cache","cacheStorageId":"provider/find","msg":"Cleaning up the expired caches..."}
-{"level":20,"time":1659193547725,"pid":19683,"hostname":"ImmortalWrt","scope":"cache","logKey":1962166119,"cacheStorageId":"provider/find","msg":"1962166119 hit!"}
-{"level":20,"time":1659193547725,"pid":19683,"hostname":"ImmortalWrt","scope":"provider/match","source":"pyncmd","info":{"name":"倒影","id":1962166119,"alias":[],"duration":234226,"album":{"name":"最伟大的作品","id":147779282},"artists":[{"name":"周杰伦","id":6452}],"keyword":"倒影 - 周杰伦"},"msg":"Getting the audio..."}
-{"level":20,"time":1659193547726,"pid":19683,"hostname":"ImmortalWrt","scope":"cache","cacheStorageId":"provider/pyncmd","msg":"Cleaning up the expired caches..."}
-{"level":20,"time":1659193547726,"pid":19683,"hostname":"ImmortalWrt","scope":"cache","logKey":"Something","cacheStorageId":"provider/pyncmd","msg":"Something did not hit. Storing the execution result..."}
-{"level":20,"time":1659193547726,"pid":19683,"hostname":"ImmortalWrt","scope":"request","msg":"Start requesting https://pyncmd.vercel.app/api/pyncm?module=track&method=GetTrackAudio&song_ids=1962166119&bitrate=999000"}
-{"level":20,"time":1659193547730,"pid":19683,"hostname":"ImmortalWrt","scope":"provider/match","source":"ytdlp","info":{"name":"倒影","id":1962166119,"alias":[],"duration":234226,"album":{"name":"最伟大的作品","id":147779282},"artists":[{"name":"周杰伦","id":6452}],"keyword":"倒影 - 周杰伦"},"msg":"Getting the audio..."}
-{"level":20,"time":1659193547730,"pid":19683,"hostname":"ImmortalWrt","scope":"cache","cacheStorageId":"yt-dlp","msg":"Cleaning up the expired caches..."}
-{"level":20,"time":1659193547730,"pid":19683,"hostname":"ImmortalWrt","scope":"cache","logKey":"Something","cacheStorageId":"yt-dlp","msg":"Something hit!"}
-{"level":30,"time":1659193547736,"pid":19683,"hostname":"ImmortalWrt","scope":"spawn","msg":"running yt-dlp -f 140 --dump-json https://www.youtube.com/watch?v=XvHc_VEop7I"}
-{"level":20,"time":1659193547738,"pid":19683,"hostname":"ImmortalWrt","scope":"provider/match","size":3793164,"br":null,"url":"https://rr1---sn-ibj-i3be6.googlevideo.com/videoplayback?expire=1659215146&ei=ykjlYsnpJ5vFs8IPju-D6AI&ip=218.190.230.226&id=o-AFykuhhbWfVg1fW-vqvQltT1zlw-doJPtSoQABpmGLnJ&itag=140&source=youtube&requiressl=yes&mh=fP&mm=31%2C29&mn=sn-ibj-i3be6%2Csn-i3b7knzs&ms=au%2Crdu&mv=m&mvi=1&pl=26&gcr=hk&initcwndbps=928750&vprv=1&mime=audio%2Fmp4&gir=yes&clen=3793164&dur=234.226&lmt=1657522331564986&mt=1659193261&fvip=2&keepalive=yes&fexp=24001373%2C24007246&c=ANDROID&rbqsm=fr&txp=2318224&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cgcr%2Cvprv%2Cmime%2Cgir%2Cclen%2Cdur%2Clmt&sig=AOq0QJ8wRgIhAN17CO3bzfgran6Kakgell5xLk9_S1dDPQ-A3h6SnlqQAiEAmVKixqxUOhwHHgw1V-noiL7y1nEQJZkpdN8UTwffwqU%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRgIhAL1lxyW1NtJnix_zwnbYAzj0Ipkf-UukHuN50jYtb5HRAiEAvrdGt8HanNVfQbBt8vtRiCJKpOd2iae5JRp_28NStew%3D","md5":null,"msg":"The matched song is:"}
-{"level":20,"time":1659193547738,"pid":19683,"hostname":"ImmortalWrt","scope":"provider/match","source":"ytdlp","info":{"name":"倒影","id":1962166119,"alias":[],"duration":234226,"album":{"name":"最伟大的作品","id":147779282},"artists":[{"name":"周杰伦","id":6452}],"keyword":"倒影 - 周杰伦"},"msg":"The audio matched!"}
-{"level":20,"time":1659193547738,"pid":19683,"hostname":"ImmortalWrt","scope":"provider/match","audioInfo":{"name":"倒影","id":1962166119,"alias":[],"duration":234226,"album":{"name":"最伟大的作品","id":147779282},"artists":[{"name":"周杰伦","id":6452}],"keyword":"倒影 - 周杰伦"},"audioData":{"size":3793164,"br":null,"url":"https://rr1---sn-ibj-i3be6.googlevideo.com/videoplayback?expire=1659215146&ei=ykjlYsnpJ5vFs8IPju-D6AI&ip=218.190.230.226&id=o-AFykuhhbWfVg1fW-vqvQltT1zlw-doJPtSoQABpmGLnJ&itag=140&source=youtube&requiressl=yes&mh=fP&mm=31%2C29&mn=sn-ibj-i3be6%2Csn-i3b7knzs&ms=au%2Crdu&mv=m&mvi=1&pl=26&gcr=hk&initcwndbps=928750&vprv=1&mime=audio%2Fmp4&gir=yes&clen=3793164&dur=234.226&lmt=1657522331564986&mt=1659193261&fvip=2&keepalive=yes&fexp=24001373%2C24007246&c=ANDROID&rbqsm=fr&txp=2318224&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cgcr%2Cvprv%2Cmime%2Cgir%2Cclen%2Cdur%2Clmt&sig=AOq0QJ8wRgIhAN17CO3bzfgran6Kakgell5xLk9_S1dDPQ-A3h6SnlqQAiEAmVKixqxUOhwHHgw1V-noiL7y1nEQJZkpdN8UTwffwqU%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRgIhAL1lxyW1NtJnix_zwnbYAzj0Ipkf-UukHuN50jYtb5HRAiEAvrdGt8HanNVfQbBt8vtRiCJKpOd2iae5JRp_28NStew%3D","md5":null},"msg":"The data to replace:"}
-{"level":30,"time":1659193547738,"pid":19683,"hostname":"ImmortalWrt","scope":"provider/match","audioId":1962166119,"songName":"倒影","url":"https://rr1---sn-ibj-i3be6.googlevideo.com/videoplayback?expire=1659215146&ei=ykjlYsnpJ5vFs8IPju-D6AI&ip=218.190.230.226&id=o-AFykuhhbWfVg1fW-vqvQltT1zlw-doJPtSoQABpmGLnJ&itag=140&source=youtube&requiressl=yes&mh=fP&mm=31%2C29&mn=sn-ibj-i3be6%2Csn-i3b7knzs&ms=au%2Crdu&mv=m&mvi=1&pl=26&gcr=hk&initcwndbps=928750&vprv=1&mime=audio%2Fmp4&gir=yes&clen=3793164&dur=234.226&lmt=1657522331564986&mt=1659193261&fvip=2&keepalive=yes&fexp=24001373%2C24007246&c=ANDROID&rbqsm=fr&txp=2318224&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cgcr%2Cvprv%2Cmime%2Cgir%2Cclen%2Cdur%2Clmt&sig=AOq0QJ8wRgIhAN17CO3bzfgran6Kakgell5xLk9_S1dDPQ-A3h6SnlqQAiEAmVKixqxUOhwHHgw1V-noiL7y1nEQJZkpdN8UTwffwqU%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRgIhAL1lxyW1NtJnix_zwnbYAzj0Ipkf-UukHuN50jYtb5HRAiEAvrdGt8HanNVfQbBt8vtRiCJKpOd2iae5JRp_28NStew%3D","msg":"Replaced: [1962166119] 倒影"}
-{"level":20,"time":1659193555988,"pid":19683,"hostname":"ImmortalWrt","scope":"spawn","msg":"process yt-dlp exited successfully"}
-{"level":20,"time":1659193555991,"pid":19683,"hostname":"ImmortalWrt","scope":"request","msg":"Start requesting https://rr1---sn-ibj-i3be6.googlevideo.com/videoplayback?expire=1659215155&ei=00jlYr38B8Du2roPgoiMsAc&ip=218.190.230.226&id=o-AJ0eN7S9VaH3pXvGdvoBeHPPTeDJ4Rolhk9oXNAdz4rm&itag=140&source=youtube&requiressl=yes&mh=fP&mm=31%2C29&mn=sn-ibj-i3be6%2Csn-i3b7knzs&ms=au%2Crdu&mv=m&mvi=1&pl=26&gcr=hk&initcwndbps=928750&vprv=1&mime=audio%2Fmp4&gir=yes&clen=3793164&dur=234.226&lmt=1657522331564986&mt=1659193261&fvip=2&keepalive=yes&fexp=24001373%2C24007246&c=ANDROID&txp=2318224&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cgcr%2Cvprv%2Cmime%2Cgir%2Cclen%2Cdur%2Clmt&sig=AOq0QJ8wRAIgYdgBcqrQ3Yboe43Jc8u7G1sW7bbmlmtDGUjrff8VFmgCIHj5HfLGGjk-23Dle_EL606Nnl48iXVsuQnwr-htIMNt&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRAIgESDlC8_qqKS6BOc01NabicEvrqvnlxjfyORyNQLDd8ECIAYgNFIetHrq4n3cW9Zfd7fUHxpTLxUvvvtmYN6H5Qrw"}
-{"level":20,"time":1659193556156,"pid":19683,"hostname":"ImmortalWrt","scope":"provider/match","size":3793164,"br":null,"url":"https://rr1---sn-ibj-i3be6.googlevideo.com/videoplayback?expire=1659215155&ei=00jlYr38B8Du2roPgoiMsAc&ip=218.190.230.226&id=o-AJ0eN7S9VaH3pXvGdvoBeHPPTeDJ4Rolhk9oXNAdz4rm&itag=140&source=youtube&requiressl=yes&mh=fP&mm=31%2C29&mn=sn-ibj-i3be6%2Csn-i3b7knzs&ms=au%2Crdu&mv=m&mvi=1&pl=26&gcr=hk&initcwndbps=928750&vprv=1&mime=audio%2Fmp4&gir=yes&clen=3793164&dur=234.226&lmt=1657522331564986&mt=1659193261&fvip=2&keepalive=yes&fexp=24001373%2C24007246&c=ANDROID&txp=2318224&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cgcr%2Cvprv%2Cmime%2Cgir%2Cclen%2Cdur%2Clmt&sig=AOq0QJ8wRAIgYdgBcqrQ3Yboe43Jc8u7G1sW7bbmlmtDGUjrff8VFmgCIHj5HfLGGjk-23Dle_EL606Nnl48iXVsuQnwr-htIMNt&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRAIgESDlC8_qqKS6BOc01NabicEvrqvnlxjfyORyNQLDd8ECIAYgNFIetHrq4n3cW9Zfd7fUHxpTLxUvvvtmYN6H5Qrw","md5":null,"msg":"The matched song is:"}
-{"level":20,"time":1659193556157,"pid":19683,"hostname":"ImmortalWrt","scope":"provider/match","source":"ytdlp","info":{"name":"倒影","id":1962166119,"alias":[],"duration":234226,"album":{"name":"最伟大的作品","id":147779282},"artists":[{"name":"周杰伦","id":6452}],"keyword":"倒影 - 周杰伦"},"msg":"The audio matched!"}
-{"level":20,"time":1659193556157,"pid":19683,"hostname":"ImmortalWrt","scope":"provider/match","audioInfo":{"name":"倒影","id":1962166119,"alias":[],"duration":234226,"album":{"name":"最伟大的作品","id":147779282},"artists":[{"name":"周杰伦","id":6452}],"keyword":"倒影 - 周杰伦"},"audioData":{"size":3793164,"br":null,"url":"https://rr1---sn-ibj-i3be6.googlevideo.com/videoplayback?expire=1659215155&ei=00jlYr38B8Du2roPgoiMsAc&ip=218.190.230.226&id=o-AJ0eN7S9VaH3pXvGdvoBeHPPTeDJ4Rolhk9oXNAdz4rm&itag=140&source=youtube&requiressl=yes&mh=fP&mm=31%2C29&mn=sn-ibj-i3be6%2Csn-i3b7knzs&ms=au%2Crdu&mv=m&mvi=1&pl=26&gcr=hk&initcwndbps=928750&vprv=1&mime=audio%2Fmp4&gir=yes&clen=3793164&dur=234.226&lmt=1657522331564986&mt=1659193261&fvip=2&keepalive=yes&fexp=24001373%2C24007246&c=ANDROID&txp=2318224&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cgcr%2Cvprv%2Cmime%2Cgir%2Cclen%2Cdur%2Clmt&sig=AOq0QJ8wRAIgYdgBcqrQ3Yboe43Jc8u7G1sW7bbmlmtDGUjrff8VFmgCIHj5HfLGGjk-23Dle_EL606Nnl48iXVsuQnwr-htIMNt&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRAIgESDlC8_qqKS6BOc01NabicEvrqvnlxjfyORyNQLDd8ECIAYgNFIetHrq4n3cW9Zfd7fUHxpTLxUvvvtmYN6H5Qrw","md5":null},"msg":"The data to replace:"}
-{"level":30,"time":1659193556157,"pid":19683,"hostname":"ImmortalWrt","scope":"provider/match","audioId":1962166119,"songName":"倒影","url":"https://rr1---sn-ibj-i3be6.googlevideo.com/videoplayback?expire=1659215155&ei=00jlYr38B8Du2roPgoiMsAc&ip=218.190.230.226&id=o-AJ0eN7S9VaH3pXvGdvoBeHPPTeDJ4Rolhk9oXNAdz4rm&itag=140&source=youtube&requiressl=yes&mh=fP&mm=31%2C29&mn=sn-ibj-i3be6%2Csn-i3b7knzs&ms=au%2Crdu&mv=m&mvi=1&pl=26&gcr=hk&initcwndbps=928750&vprv=1&mime=audio%2Fmp4&gir=yes&clen=3793164&dur=234.226&lmt=1657522331564986&mt=1659193261&fvip=2&keepalive=yes&fexp=24001373%2C24007246&c=ANDROID&txp=2318224&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cgcr%2Cvprv%2Cmime%2Cgir%2Cclen%2Cdur%2Clmt&sig=AOq0QJ8wRAIgYdgBcqrQ3Yboe43Jc8u7G1sW7bbmlmtDGUjrff8VFmgCIHj5HfLGGjk-23Dle_EL606Nnl48iXVsuQnwr-htIMNt&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRAIgESDlC8_qqKS6BOc01NabicEvrqvnlxjfyORyNQLDd8ECIAYgNFIetHrq4n3cW9Zfd7fUHxpTLxUvvvtmYN6H5Qrw","msg":"Replaced: [1962166119] 倒影"}
-{"level":20,"time":1659193556235,"pid":19683,"hostname":"ImmortalWrt","scope":"server","url":"0.0.0.0:5202","msg":"TUNNEL"}
+INFO: (app) HTTP Server running @ http://0.0.0.0:5200
+INFO: (app) HTTPS Server running @ http://0.0.0.0:5202
+DEBUG: (cache) Cleaning up the expired caches...
+    cacheStorageId: "provider/find"
+DEBUG: (cache) 1962166119 did not hit. Storing the execution result...
+    logKey: 1962166119
+    cacheStorageId: "provider/find"
+DEBUG: (request) Start requesting https://music.163.com/api/song/detail?ids=[1962166119]
+DEBUG: (provider/match) Getting the audio...
+    source: "pyncmd"
+    info: {
+      "name": "倒影",
+      "id": 1962166119,
+      "alias": [],
+      "duration": 234226,
+      "album": {
+        "name": "最伟大的作品",
+        "id": 147779282
+      },
+      "artists": [
+        {
+          "name": "周杰伦",
+          "id": 6452
+        }
+      ],
+      "keyword": "倒影 - 周杰伦"
+    }
+DEBUG: (cache) Cleaning up the expired caches...
+    cacheStorageId: "provider/pyncmd"
+DEBUG: (cache) Something did not hit. Storing the execution result...
+    logKey: "Something"
+    cacheStorageId: "provider/pyncmd"
+DEBUG: (request) Start requesting https://pyncmd.vercel.app/api/pyncm?module=track&method=GetTrackAudio&song_ids=1962166119&bitrate=999000
+DEBUG: (provider/match) Getting the audio...
+    source: "ytdlp"
+    info: {
+      "name": "倒影",
+      "id": 1962166119,
+      "alias": [],
+      "duration": 234226,
+      "album": {
+        "name": "最伟大的作品",
+        "id": 147779282
+      },
+      "artists": [
+        {
+          "name": "周杰伦",
+          "id": 6452
+        }
+      ],
+      "keyword": "倒影 - 周杰伦"
+    }
+DEBUG: (cache) Cleaning up the expired caches...
+    cacheStorageId: "yt-dlp"
+DEBUG: (cache) Something did not hit. Storing the execution result...
+    logKey: "Something"
+    cacheStorageId: "yt-dlp"
+INFO: (spawn) running yt-dlp -f 140 --dump-json ytsearch1:倒影 - 周杰伦
+DEBUG: (server) TUNNEL
+    url: "0.0.0.0:5202"
+DEBUG: (server) TUNNEL
+    url: "0.0.0.0:5202"
+DEBUG: (server) TUNNEL
+    url: "0.0.0.0:5202"
+DEBUG: (server) TUNNEL
+    url: "0.0.0.0:5202"
+DEBUG: (server) TUNNEL
+    url: "0.0.0.0:5202"
+DEBUG: (server) TUNNEL
+    url: "0.0.0.0:5202"
+DEBUG: (spawn) process yt-dlp exited successfully
+INFO: (spawn) running yt-dlp -f 140 --dump-json https://www.youtube.com/watch?v=XvHc_VEop7I
+DEBUG: (cache) Cleaning up the expired caches...
+    cacheStorageId: "provider/find"
+DEBUG: (cache) 1962166119 hit!
+    logKey: 1962166119
+    cacheStorageId: "provider/find"
+DEBUG: (provider/match) Getting the audio...
+    source: "pyncmd"
+    info: {
+      "name": "倒影",
+      "id": 1962166119,
+      "alias": [],
+      "duration": 234226,
+      "album": {
+        "name": "最伟大的作品",
+        "id": 147779282
+      },
+      "artists": [
+        {
+          "name": "周杰伦",
+          "id": 6452
+        }
+      ],
+      "keyword": "倒影 - 周杰伦"
+    }
+DEBUG: (cache) Cleaning up the expired caches...
+    cacheStorageId: "provider/pyncmd"
+DEBUG: (cache) Something did not hit. Storing the execution result...
+    logKey: "Something"
+    cacheStorageId: "provider/pyncmd"
+DEBUG: (request) Start requesting https://pyncmd.vercel.app/api/pyncm?module=track&method=GetTrackAudio&song_ids=1962166119&bitrate=999000
+DEBUG: (provider/match) Getting the audio...
+    source: "ytdlp"
+    info: {
+      "name": "倒影",
+      "id": 1962166119,
+      "alias": [],
+      "duration": 234226,
+      "album": {
+        "name": "最伟大的作品",
+        "id": 147779282
+      },
+      "artists": [
+        {
+          "name": "周杰伦",
+          "id": 6452
+        }
+      ],
+      "keyword": "倒影 - 周杰伦"
+    }
+DEBUG: (cache) Cleaning up the expired caches...
+    cacheStorageId: "yt-dlp"
+DEBUG: (cache) Something hit!
+    logKey: "Something"
+    cacheStorageId: "yt-dlp"
+INFO: (spawn) running yt-dlp -f 140 --dump-json https://www.youtube.com/watch?v=XvHc_VEop7I
+DEBUG: (spawn) process yt-dlp exited successfully
+DEBUG: (request) Start requesting https://rr1---sn-ibj-i3be6.googlevideo.com/videoplayback?expire=1659218812&ei=HFflYpq2M9j32roPt5uViA4&ip=218.190.230.226&id=o-AIdPjMmGcRx6TGIZp1rWO-RH7oVXDj5lBP4O5p3fEq81&itag=140&source=youtube&requiressl=yes&mh=fP&mm=31%2C29&mn=sn-ibj-i3be6%2Csn-i3belne6&ms=au%2Crdu&mv=m&mvi=1&pl=26&gcr=hk&initcwndbps=1088750&vprv=1&mime=audio%2Fmp4&gir=yes&clen=3793164&dur=234.226&lmt=1657522331564986&mt=1659196855&fvip=3&keepalive=yes&fexp=24001373%2C24007246&c=ANDROID&txp=2318224&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cgcr%2Cvprv%2Cmime%2Cgir%2Cclen%2Cdur%2Clmt&sig=AOq0QJ8wRQIgeG09gu_VLSW0vmbL_DfzRyva0gTmBgHxcbTOGctjQxcCIQCB_OdNfwDhql8SPgsYIKUer_OzwH59B0ccdHhNiaV1EA%3D%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRgIhALzLvhQAoSF8k-8DTrUFWxnTJOPHptHWSszjacYnoH-LAiEAwhJMFE3yCeRSBA3fZyEUUQgxjrlq4KOD_zkwypE1u-A%3D
+DEBUG: (provider/match) The matched song is:
+    size: 3793164
+    br: null
+    url: "https://rr1---sn-ibj-i3be6.googlevideo.com/videoplayback?expire=1659218812&ei=HFflYpq2M9j32roPt5uViA4&ip=218.190.230.226&id=o-AIdPjMmGcRx6TGIZp1rWO-RH7oVXDj5lBP4O5p3fEq81&itag=140&source=youtube&requiressl=yes&mh=fP&mm=31%2C29&mn=sn-ibj-i3be6%2Csn-i3belne6&ms=au%2Crdu&mv=m&mvi=1&pl=26&gcr=hk&initcwndbps=1088750&vprv=1&mime=audio%2Fmp4&gir=yes&clen=3793164&dur=234.226&lmt=1657522331564986&mt=1659196855&fvip=3&keepalive=yes&fexp=24001373%2C24007246&c=ANDROID&txp=2318224&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cgcr%2Cvprv%2Cmime%2Cgir%2Cclen%2Cdur%2Clmt&sig=AOq0QJ8wRQIgeG09gu_VLSW0vmbL_DfzRyva0gTmBgHxcbTOGctjQxcCIQCB_OdNfwDhql8SPgsYIKUer_OzwH59B0ccdHhNiaV1EA%3D%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRgIhALzLvhQAoSF8k-8DTrUFWxnTJOPHptHWSszjacYnoH-LAiEAwhJMFE3yCeRSBA3fZyEUUQgxjrlq4KOD_zkwypE1u-A%3D"
+    md5: null
+DEBUG: (provider/match) The audio matched!
+    source: "ytdlp"
+    info: {
+      "name": "倒影",
+      "id": 1962166119,
+      "alias": [],
+      "duration": 234226,
+      "album": {
+        "name": "最伟大的作品",
+        "id": 147779282
+      },
+      "artists": [
+        {
+          "name": "周杰伦",
+          "id": 6452
+        }
+      ],
+      "keyword": "倒影 - 周杰伦"
+    }
+DEBUG: (provider/match) The data to replace:
+    audioInfo: {
+      "name": "倒影",
+      "id": 1962166119,
+      "alias": [],
+      "duration": 234226,
+      "album": {
+        "name": "最伟大的作品",
+        "id": 147779282
+      },
+      "artists": [
+        {
+          "name": "周杰伦",
+          "id": 6452
+        }
+      ],
+      "keyword": "倒影 - 周杰伦"
+    }
+    audioData: {
+      "size": 3793164,
+      "br": null,
+      "url": "https://rr1---sn-ibj-i3be6.googlevideo.com/videoplayback?expire=1659218812&ei=HFflYpq2M9j32roPt5uViA4&ip=218.190.230.226&id=o-AIdPjMmGcRx6TGIZp1rWO-RH7oVXDj5lBP4O5p3fEq81&itag=140&source=youtube&requiressl=yes&mh=fP&mm=31%2C29&mn=sn-ibj-i3be6%2Csn-i3belne6&ms=au%2Crdu&mv=m&mvi=1&pl=26&gcr=hk&initcwndbps=1088750&vprv=1&mime=audio%2Fmp4&gir=yes&clen=3793164&dur=234.226&lmt=1657522331564986&mt=1659196855&fvip=3&keepalive=yes&fexp=24001373%2C24007246&c=ANDROID&txp=2318224&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cgcr%2Cvprv%2Cmime%2Cgir%2Cclen%2Cdur%2Clmt&sig=AOq0QJ8wRQIgeG09gu_VLSW0vmbL_DfzRyva0gTmBgHxcbTOGctjQxcCIQCB_OdNfwDhql8SPgsYIKUer_OzwH59B0ccdHhNiaV1EA%3D%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRgIhALzLvhQAoSF8k-8DTrUFWxnTJOPHptHWSszjacYnoH-LAiEAwhJMFE3yCeRSBA3fZyEUUQgxjrlq4KOD_zkwypE1u-A%3D",
+      "md5": null
+    }
+INFO: (provider/match) Replaced: [1962166119] 倒影
+    audioId: 1962166119
+    songName: "倒影"
+    url: "https://rr1---sn-ibj-i3be6.googlevideo.com/videoplayback?expire=1659218812&ei=HFflYpq2M9j32roPt5uViA4&ip=218.190.230.226&id=o-AIdPjMmGcRx6TGIZp1rWO-RH7oVXDj5lBP4O5p3fEq81&itag=140&source=youtube&requiressl=yes&mh=fP&mm=31%2C29&mn=sn-ibj-i3be6%2Csn-i3belne6&ms=au%2Crdu&mv=m&mvi=1&pl=26&gcr=hk&initcwndbps=1088750&vprv=1&mime=audio%2Fmp4&gir=yes&clen=3793164&dur=234.226&lmt=1657522331564986&mt=1659196855&fvip=3&keepalive=yes&fexp=24001373%2C24007246&c=ANDROID&txp=2318224&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cgcr%2Cvprv%2Cmime%2Cgir%2Cclen%2Cdur%2Clmt&sig=AOq0QJ8wRQIgeG09gu_VLSW0vmbL_DfzRyva0gTmBgHxcbTOGctjQxcCIQCB_OdNfwDhql8SPgsYIKUer_OzwH59B0ccdHhNiaV1EA%3D%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRgIhALzLvhQAoSF8k-8DTrUFWxnTJOPHptHWSszjacYnoH-LAiEAwhJMFE3yCeRSBA3fZyEUUQgxjrlq4KOD_zkwypE1u-A%3D"
+DEBUG: (cache) Cleaning up the expired caches...
+    cacheStorageId: "provider/find"
+DEBUG: (cache) 1962166119 hit!
+    logKey: 1962166119
+    cacheStorageId: "provider/find"
+DEBUG: (provider/match) Getting the audio...
+    source: "pyncmd"
+    info: {
+      "name": "倒影",
+      "id": 1962166119,
+      "alias": [],
+      "duration": 234226,
+      "album": {
+        "name": "最伟大的作品",
+        "id": 147779282
+      },
+      "artists": [
+        {
+          "name": "周杰伦",
+          "id": 6452
+        }
+      ],
+      "keyword": "倒影 - 周杰伦"
+    }
+DEBUG: (cache) Cleaning up the expired caches...
+    cacheStorageId: "provider/pyncmd"
+DEBUG: (cache) Something did not hit. Storing the execution result...
+    logKey: "Something"
+    cacheStorageId: "provider/pyncmd"
+DEBUG: (request) Start requesting https://pyncmd.vercel.app/api/pyncm?module=track&method=GetTrackAudio&song_ids=1962166119&bitrate=999000
+DEBUG: (provider/match) Getting the audio...
+    source: "ytdlp"
+    info: {
+      "name": "倒影",
+      "id": 1962166119,
+      "alias": [],
+      "duration": 234226,
+      "album": {
+        "name": "最伟大的作品",
+        "id": 147779282
+      },
+      "artists": [
+        {
+          "name": "周杰伦",
+          "id": 6452
+        }
+      ],
+      "keyword": "倒影 - 周杰伦"
+    }
+DEBUG: (cache) Cleaning up the expired caches...
+    cacheStorageId: "yt-dlp"
+DEBUG: (cache) Something hit!
+    logKey: "Something"
+    cacheStorageId: "yt-dlp"
+INFO: (spawn) running yt-dlp -f 140 --dump-json https://www.youtube.com/watch?v=XvHc_VEop7I
+DEBUG: (spawn) process yt-dlp exited successfully
+DEBUG: (request) Start requesting https://rr1---sn-ibj-i3be6.googlevideo.com/videoplayback?expire=1659218817&ei=IVflYojhNZC22roPr52duA4&ip=218.190.230.226&id=o-ACkR_HwE00i9IRtyVo9RsB8piSaGe5JFqLa2uEbNd74O&itag=140&source=youtube&requiressl=yes&mh=fP&mm=31%2C29&mn=sn-ibj-i3be6%2Csn-i3belne6&ms=au%2Crdu&mv=m&mvi=1&pl=26&gcr=hk&initcwndbps=1088750&vprv=1&mime=audio%2Fmp4&gir=yes&clen=3793164&dur=234.226&lmt=1657522331564986&mt=1659196855&fvip=3&keepalive=yes&fexp=24001373%2C24007246&c=ANDROID&rbqsm=fr&txp=2318224&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cgcr%2Cvprv%2Cmime%2Cgir%2Cclen%2Cdur%2Clmt&sig=AOq0QJ8wRQIhAKPCP0dGcchKSPqtYsEj1sAF3g90L9PyDd13YKpGR-wsAiBB6XwgQ314e3qUWuLWakjjj8SFWD5x9uIlgDkY00YY1g%3D%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRQIgUj67I_iL75uFb6EMN4Pv7MsWOcC_sU-8hYDkWleW68ECIQDA4HpZF5ZV3WZO9-RFAmR0JcHBKoou6kPH7OJm1Kc_tQ%3D%3D
+DEBUG: (provider/match) The matched song is:
+    size: 3793164
+    br: null
+    url: "https://rr1---sn-ibj-i3be6.googlevideo.com/videoplayback?expire=1659218817&ei=IVflYojhNZC22roPr52duA4&ip=218.190.230.226&id=o-ACkR_HwE00i9IRtyVo9RsB8piSaGe5JFqLa2uEbNd74O&itag=140&source=youtube&requiressl=yes&mh=fP&mm=31%2C29&mn=sn-ibj-i3be6%2Csn-i3belne6&ms=au%2Crdu&mv=m&mvi=1&pl=26&gcr=hk&initcwndbps=1088750&vprv=1&mime=audio%2Fmp4&gir=yes&clen=3793164&dur=234.226&lmt=1657522331564986&mt=1659196855&fvip=3&keepalive=yes&fexp=24001373%2C24007246&c=ANDROID&rbqsm=fr&txp=2318224&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cgcr%2Cvprv%2Cmime%2Cgir%2Cclen%2Cdur%2Clmt&sig=AOq0QJ8wRQIhAKPCP0dGcchKSPqtYsEj1sAF3g90L9PyDd13YKpGR-wsAiBB6XwgQ314e3qUWuLWakjjj8SFWD5x9uIlgDkY00YY1g%3D%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRQIgUj67I_iL75uFb6EMN4Pv7MsWOcC_sU-8hYDkWleW68ECIQDA4HpZF5ZV3WZO9-RFAmR0JcHBKoou6kPH7OJm1Kc_tQ%3D%3D"
+    md5: null
+DEBUG: (provider/match) The audio matched!
+    source: "ytdlp"
+    info: {
+      "name": "倒影",
+      "id": 1962166119,
+      "alias": [],
+      "duration": 234226,
+      "album": {
+        "name": "最伟大的作品",
+        "id": 147779282
+      },
+      "artists": [
+        {
+          "name": "周杰伦",
+          "id": 6452
+        }
+      ],
+      "keyword": "倒影 - 周杰伦"
+    }
+DEBUG: (provider/match) The data to replace:
+    audioInfo: {
+      "name": "倒影",
+      "id": 1962166119,
+      "alias": [],
+      "duration": 234226,
+      "album": {
+        "name": "最伟大的作品",
+        "id": 147779282
+      },
+      "artists": [
+        {
+          "name": "周杰伦",
+          "id": 6452
+        }
+      ],
+      "keyword": "倒影 - 周杰伦"
+    }
+    audioData: {
+      "size": 3793164,
+      "br": null,
+      "url": "https://rr1---sn-ibj-i3be6.googlevideo.com/videoplayback?expire=1659218817&ei=IVflYojhNZC22roPr52duA4&ip=218.190.230.226&id=o-ACkR_HwE00i9IRtyVo9RsB8piSaGe5JFqLa2uEbNd74O&itag=140&source=youtube&requiressl=yes&mh=fP&mm=31%2C29&mn=sn-ibj-i3be6%2Csn-i3belne6&ms=au%2Crdu&mv=m&mvi=1&pl=26&gcr=hk&initcwndbps=1088750&vprv=1&mime=audio%2Fmp4&gir=yes&clen=3793164&dur=234.226&lmt=1657522331564986&mt=1659196855&fvip=3&keepalive=yes&fexp=24001373%2C24007246&c=ANDROID&rbqsm=fr&txp=2318224&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cgcr%2Cvprv%2Cmime%2Cgir%2Cclen%2Cdur%2Clmt&sig=AOq0QJ8wRQIhAKPCP0dGcchKSPqtYsEj1sAF3g90L9PyDd13YKpGR-wsAiBB6XwgQ314e3qUWuLWakjjj8SFWD5x9uIlgDkY00YY1g%3D%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRQIgUj67I_iL75uFb6EMN4Pv7MsWOcC_sU-8hYDkWleW68ECIQDA4HpZF5ZV3WZO9-RFAmR0JcHBKoou6kPH7OJm1Kc_tQ%3D%3D",
+      "md5": null
+    }
+INFO: (provider/match) Replaced: [1962166119] 倒影
+    audioId: 1962166119
+    songName: "倒影"
+    url: "https://rr1---sn-ibj-i3be6.googlevideo.com/videoplayback?expire=1659218817&ei=IVflYojhNZC22roPr52duA4&ip=218.190.230.226&id=o-ACkR_HwE00i9IRtyVo9RsB8piSaGe5JFqLa2uEbNd74O&itag=140&source=youtube&requiressl=yes&mh=fP&mm=31%2C29&mn=sn-ibj-i3be6%2Csn-i3belne6&ms=au%2Crdu&mv=m&mvi=1&pl=26&gcr=hk&initcwndbps=1088750&vprv=1&mime=audio%2Fmp4&gir=yes&clen=3793164&dur=234.226&lmt=1657522331564986&mt=1659196855&fvip=3&keepalive=yes&fexp=24001373%2C24007246&c=ANDROID&rbqsm=fr&txp=2318224&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cgcr%2Cvprv%2Cmime%2Cgir%2Cclen%2Cdur%2Clmt&sig=AOq0QJ8wRQIhAKPCP0dGcchKSPqtYsEj1sAF3g90L9PyDd13YKpGR-wsAiBB6XwgQ314e3qUWuLWakjjj8SFWD5x9uIlgDkY00YY1g%3D%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRQIgUj67I_iL75uFb6EMN4Pv7MsWOcC_sU-8hYDkWleW68ECIQDA4HpZF5ZV3WZO9-RFAmR0JcHBKoou6kPH7OJm1Kc_tQ%3D%3D"
+DEBUG: (spawn) process yt-dlp exited successfully
+DEBUG: (request) Start requesting https://rr1---sn-ibj-i3be6.googlevideo.com/videoplayback?expire=1659218825&ei=KVflYtGaH_e12roPqNCEsA0&ip=218.190.230.226&id=o-ABdzPCV1uVFslviBbMBVYZNuH5ZSwPHQSeP3h9555dhS&itag=140&source=youtube&requiressl=yes&mh=fP&mm=31%2C29&mn=sn-ibj-i3be6%2Csn-i3belne6&ms=au%2Crdu&mv=m&mvi=1&pl=26&pcm2=yes&gcr=hk&initcwndbps=1088750&vprv=1&mime=audio%2Fmp4&gir=yes&clen=3793164&dur=234.226&lmt=1657522331564986&mt=1659196855&fvip=3&keepalive=yes&fexp=24001373%2C24007246&c=ANDROID&txp=2318224&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cpcm2%2Cgcr%2Cvprv%2Cmime%2Cgir%2Cclen%2Cdur%2Clmt&sig=AOq0QJ8wRQIhALRHlr_pATGWhQp8sRE8wpf1K4F97z056RNig_PRDthEAiAHbvtjz1o8tOZNc1AMqSk-3yrGiZZhguzXzBGodOE5XQ%3D%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRAIgNvvhDZUh9fVSq1G4IJJgEdYxi0x_SCCEo2KHBz9j214CIBRo2AwqIqcsF0f_zQLb2oEqam-dR8zMA4r5QHEh2m7z
+DEBUG: (provider/match) The matched song is:
+    size: 3793164
+    br: null
+    url: "https://rr1---sn-ibj-i3be6.googlevideo.com/videoplayback?expire=1659218825&ei=KVflYtGaH_e12roPqNCEsA0&ip=218.190.230.226&id=o-ABdzPCV1uVFslviBbMBVYZNuH5ZSwPHQSeP3h9555dhS&itag=140&source=youtube&requiressl=yes&mh=fP&mm=31%2C29&mn=sn-ibj-i3be6%2Csn-i3belne6&ms=au%2Crdu&mv=m&mvi=1&pl=26&pcm2=yes&gcr=hk&initcwndbps=1088750&vprv=1&mime=audio%2Fmp4&gir=yes&clen=3793164&dur=234.226&lmt=1657522331564986&mt=1659196855&fvip=3&keepalive=yes&fexp=24001373%2C24007246&c=ANDROID&txp=2318224&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cpcm2%2Cgcr%2Cvprv%2Cmime%2Cgir%2Cclen%2Cdur%2Clmt&sig=AOq0QJ8wRQIhALRHlr_pATGWhQp8sRE8wpf1K4F97z056RNig_PRDthEAiAHbvtjz1o8tOZNc1AMqSk-3yrGiZZhguzXzBGodOE5XQ%3D%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRAIgNvvhDZUh9fVSq1G4IJJgEdYxi0x_SCCEo2KHBz9j214CIBRo2AwqIqcsF0f_zQLb2oEqam-dR8zMA4r5QHEh2m7z"
+    md5: null
+DEBUG: (provider/match) The audio matched!
+    source: "ytdlp"
+    info: {
+      "name": "倒影",
+      "id": 1962166119,
+      "alias": [],
+      "duration": 234226,
+      "album": {
+        "name": "最伟大的作品",
+        "id": 147779282
+      },
+      "artists": [
+        {
+          "name": "周杰伦",
+          "id": 6452
+        }
+      ],
+      "keyword": "倒影 - 周杰伦"
+    }
+DEBUG: (provider/match) The data to replace:
+    audioInfo: {
+      "name": "倒影",
+      "id": 1962166119,
+      "alias": [],
+      "duration": 234226,
+      "album": {
+        "name": "最伟大的作品",
+        "id": 147779282
+      },
+      "artists": [
+        {
+          "name": "周杰伦",
+          "id": 6452
+        }
+      ],
+      "keyword": "倒影 - 周杰伦"
+    }
+    audioData: {
+      "size": 3793164,
+      "br": null,
+      "url": "https://rr1---sn-ibj-i3be6.googlevideo.com/videoplayback?expire=1659218825&ei=KVflYtGaH_e12roPqNCEsA0&ip=218.190.230.226&id=o-ABdzPCV1uVFslviBbMBVYZNuH5ZSwPHQSeP3h9555dhS&itag=140&source=youtube&requiressl=yes&mh=fP&mm=31%2C29&mn=sn-ibj-i3be6%2Csn-i3belne6&ms=au%2Crdu&mv=m&mvi=1&pl=26&pcm2=yes&gcr=hk&initcwndbps=1088750&vprv=1&mime=audio%2Fmp4&gir=yes&clen=3793164&dur=234.226&lmt=1657522331564986&mt=1659196855&fvip=3&keepalive=yes&fexp=24001373%2C24007246&c=ANDROID&txp=2318224&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cpcm2%2Cgcr%2Cvprv%2Cmime%2Cgir%2Cclen%2Cdur%2Clmt&sig=AOq0QJ8wRQIhALRHlr_pATGWhQp8sRE8wpf1K4F97z056RNig_PRDthEAiAHbvtjz1o8tOZNc1AMqSk-3yrGiZZhguzXzBGodOE5XQ%3D%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRAIgNvvhDZUh9fVSq1G4IJJgEdYxi0x_SCCEo2KHBz9j214CIBRo2AwqIqcsF0f_zQLb2oEqam-dR8zMA4r5QHEh2m7z",
+      "md5": null
+    }
+INFO: (provider/match) Replaced: [1962166119] 倒影
+    audioId: 1962166119
+    songName: "倒影"
+    url: "https://rr1---sn-ibj-i3be6.googlevideo.com/videoplayback?expire=1659218825&ei=KVflYtGaH_e12roPqNCEsA0&ip=218.190.230.226&id=o-ABdzPCV1uVFslviBbMBVYZNuH5ZSwPHQSeP3h9555dhS&itag=140&source=youtube&requiressl=yes&mh=fP&mm=31%2C29&mn=sn-ibj-i3be6%2Csn-i3belne6&ms=au%2Crdu&mv=m&mvi=1&pl=26&pcm2=yes&gcr=hk&initcwndbps=1088750&vprv=1&mime=audio%2Fmp4&gir=yes&clen=3793164&dur=234.226&lmt=1657522331564986&mt=1659196855&fvip=3&keepalive=yes&fexp=24001373%2C24007246&c=ANDROID&txp=2318224&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cpcm2%2Cgcr%2Cvprv%2Cmime%2Cgir%2Cclen%2Cdur%2Clmt&sig=AOq0QJ8wRQIhALRHlr_pATGWhQp8sRE8wpf1K4F97z056RNig_PRDthEAiAHbvtjz1o8tOZNc1AMqSk-3yrGiZZhguzXzBGodOE5XQ%3D%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRAIgNvvhDZUh9fVSq1G4IJJgEdYxi0x_SCCEo2KHBz9j214CIBRo2AwqIqcsF0f_zQLb2oEqam-dR8zMA4r5QHEh2m7z"
+DEBUG: (server) TUNNEL
+    url: "0.0.0.0:5202"
