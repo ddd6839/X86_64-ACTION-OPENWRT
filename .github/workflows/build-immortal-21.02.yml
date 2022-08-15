@@ -13,7 +13,7 @@ name: Build immortalwrt-21.02
 on:
   repository_dispatch:
   schedule:
-    - cron: 0 20 14 * *  
+    - cron: 0 18 14 * *  
   workflow_dispatch:
     inputs:
       ssh:
