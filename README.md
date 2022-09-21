@@ -6,7 +6,7 @@
 ![GitHub Stars](https://img.shields.io/github/stars/P3TERX/Actions-OpenWrt.svg?style=flat-square&label=Stars&logo=github)
 ![GitHub Forks](https://img.shields.io/github/forks/P3TERX/Actions-OpenWrt.svg?style=flat-square&label=Forks&logo=github)
 
-A template for building OpenWrt with GitHub Actions
+A template for building OpenWrt with GitHub Actions > [immortalwrt-21.02](https://github.com/immortalwrt/immortalwrt/tree/openwrt-21.02), runs at 18:00 UTC on the 14th of every month.
 
 ## Usage
 
