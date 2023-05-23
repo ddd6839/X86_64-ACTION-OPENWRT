@@ -21,3 +21,4 @@ echo 'src-git netspeedtest https://github.com/sirpdboy/netspeedtest' >>feeds.con
 echo 'src-git Istore  https://github.com/linkease/istore' >>feeds.conf.default
 echo 'src-git AdGuardHome  https://github.com/panther706/luci-app-adguardhome' >>feeds.conf.default
 echo 'src-git Openclash  https://github.com/vernesong/OpenClash;dev' >>feeds.conf.default
+echo 'src-git Mosdns  https://github.com/sbwml/luci-app-mosdns' >>feeds.conf.default
